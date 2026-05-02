@@ -4,7 +4,7 @@ const DarkModeToggle = ({toggle, darkMode}) => {
   // TODO: Implement dark mode toggle logic
 
   return (
-    <button onClick={toggle}>Toggle Dark Mode {/* TODO: Update this text from Dark to Light dynamically */}
+    <button onClick={toggle}> {/* TODO: Update this text from Dark to Light dynamically */}
     {darkMode? 'Toggle Light Mode' : 'Toggle Dark Mode'}
     </button>
   )
